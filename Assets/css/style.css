@@ -1,0 +1,510 @@
+.container {
+	background-image: url("../images/new_year_background.png");
+	width: 960px;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom: solid; color: #cccccc;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.nameStyle {
+	color: #ffffff;
+	padding: 10px 15px;
+	background-color: #4aaaa5;
+	width: 200px;
+	left: 20px;
+	font-family: Georgia;
+	margin: 0px 0px;
+	position: relative;
+	font-size: 1.5em;
+}
+
+nav {
+	display: inline;
+	margin: 20px 20px;
+	padding: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 20px;
+	margin-left: 700px;
+}
+
+nav li {
+	display: inline;
+	float: left;
+	border-right: 1px solid #bbb;
+	line-height: 5px;
+	font-family: Times;
+}
+
+nav a:hover { 
+	background-color: #e3e3e3;
+	color: #fff;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+	color: #77777;
+	text-decoration: none;
+}
+
+.divStyle1 {
+	width: 650px;
+	background-color: #ffffff;
+	border: solid #cccccc 1px;
+	left: 20px;
+	position: relative;
+	color: #777777;
+	margin-bottom: 40px;
+	padding: 0;
+}
+
+.divStyle1 h1 {
+	margin: 10px 20px;
+	padding: 0;
+	width: 90%;
+	border-bottom: 3px solid #cccccc; 
+	color: #4aaaa5;
+}
+
+.divStyle1 img {
+	float: left;
+	border: solid #cccccc 1px;
+	text-shadow: 5,5,5;
+	width: 35%;
+	margin: 0px 20px 5px 20px;
+}
+
+.divStyle1 p { 
+	margin: 0px 20px 20px 20px;
+}
+
+.picBox {
+	width: 200px;
+	padding: 10px 10px;
+	position: absolute;
+	top: 75px;
+	left: 710px;
+	background-color: #fff;
+	border: solid #cccccc 1px;
+}
+
+.picBox img {
+	width: 55px;
+	margin-right: 9px;
+	left: 6px;
+	position: relative;
+	height: 55px;
+}
+
+h3 {
+	font-size: 20px;
+	border-bottom: 5px solid #dddddd;
+	margin-right: 5px;
+	margin-left: 5px;
+	text-align: center;
+	margin-top: 18px;
+	padding-bottom: 12px;
+
+}
+
+footer {
+	width: 100%;
+	background-color: #666666;
+	height: 70px;
+	margin: 0 0;
+	padding: 0 0;
+	text-align: center;
+	border-top: solid #4aaaa5 5px;
+	clear: both;
+}
+
+footer p {
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+.divStyle2 {
+	width: 650px;
+	background-color: #ffffff;
+	border: solid #cccccc;
+	left: 20px;
+	position: relative;
+	color: #777777;
+	margin-bottom: 40px;
+	padding: 0;
+	overflow: auto;
+}
+
+.divStyle2 img {
+	width: 42%;
+	margin: 10px 0px 20px 0px;
+	padding-left: 30px;
+	float: left;
+}
+
+.clearfix:after {
+	content: " "; 
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.divStyle2 h1 {
+	margin: 10px 30px 10px 30px;
+	width: 88%;
+	border-bottom: 3px solid #cccccc; 
+	color: #4aaaa5;
+	height: calc(100% - 18px)
+}
+
+.divStyle1 input {
+	padding-left: 40px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.divStyle1 textarea {
+	padding-left: 109px;
+	margin-left: 20px;
+	font-size: 16px;
+	text-align: justify;
+    -moz-text-align-last: left; 
+    text-align-last: left;
+}
+
+.logoBanner {
+	position: absolute;
+	background-color: #4aaaa5;
+	left: 30px;
+	top: 169px;
+	margin: 0;
+	padding: 10px 73px;
+	color: #fff;
+}
+
+.mediaBanner {
+	position: absolute;
+	background-color: #4aaaa5;
+	left: 333.5px;
+	top: 169px;
+	margin: 0;
+	padding: 10px 66px;
+	color: #fff;
+}
+
+.audioBanner {
+	position: absolute;
+	background-color: #4aaaa5;
+	left: 30px;
+	top: 373px;
+	margin: 0;
+	padding: 11px 80.3px;
+	color: #fff;
+}
+
+.writingBanner {
+	position: absolute;
+	background-color: #4aaaa5;
+	left: 333.5px;
+	top: 373px;
+	margin: 0;
+	padding: 10px 49px;
+	color: #fff;
+}
+  /*         Media Queries for screens 768px or less*/
+@media (max-width: 768px) {
+	.divStyle2 img {
+	width: 42%;
+	margin: 10px 0px 20px 0px;
+	padding-left: 22px;
+	float: left;
+}
+
+@media (max-width: 768px) {
+	.divStyle2 {
+	width: 400px;
+}
+@media (max-width: 768px) {
+	.writingBanner {
+	position: absolute;
+	background-color: #4aaaa5;
+	left: 212px;
+	top: 270px;
+	margin: 0;
+	padding: 5px 15px 5px 15px;
+	color: #fff;
+	font-size: 19px;
+}
+@media (max-width: 768px) {
+	.audioBanner {
+	position: absolute;
+	background-color: #4aaaa5;
+	left: 212px;
+	top: 135px;
+	margin: 0;
+	padding: 5px 39px 5px 40px;
+	color: #fff;
+	font-size: 19px;
+}
+@media (max-width: 768px) {
+	.logoBanner {
+	position: absolute;
+	background-color: #4aaaa5;
+	left: 22px;
+	top: 135px;
+	margin: 0;
+	padding: 5px 35px 5px 31.7px;
+	color: #fff;
+	font-size: 19px;
+
+}
+@media (max-width: 768px) {
+	.mediaBanner {
+	position: absolute;
+	background-color: #4aaaa5;
+	left: 22px;
+	top: 270px;
+	margin: 0;
+	padding: 5px 31px 5px 26px;
+	color: #fff;
+	font-size: 19px;
+}
+
+@media (max-width: 768px) {
+ .divStyle1 {
+    width: 400px
+  }
+@media (max-width: 768px) {
+	nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 ;
+	position: absolute;
+	top: 20px;
+	margin-left: 500px;
+}
+@media (max-width: 768px) {
+.picBox {
+	width: 200px;
+	padding: 10px 10px;
+	position: absolute;
+	top: 75px;
+	left: 500px;
+	background-color: #fff;
+	border: solid #cccccc 1px;
+}
+@media (max-width: 768px) {
+	footer {
+	width: 768px;
+	background-color: #666666;
+	height: 70px;
+	margin: 0 0;
+	padding: 0 0;
+	text-align: center;
+	border-top: solid #4aaaa5 5px;
+	clear: both;
+  }
+
+  @media (max-width: 768px) {
+  	textarea {
+  	}
+   /*         Media Queries for screens 640px or less*/ 
+@media (max-width: 640px) {
+	.divStyle2 img {
+	width: 42%;
+	margin: 10px 0px 20px 0px;
+	padding-left: 34px;
+	float: left;
+}
+
+@media (max-width: 640px) {
+	.divStyle2 {
+	width: 620px;
+	background-color: #ffffff;
+	left: 0px;
+	position: relative;
+	color: #777777;
+	margin-bottom: 0px;
+	padding: 0;
+	overflow: auto;
+}
+@media (max-width: 640px) {
+	.writingBanner {
+	position: absolute;
+	background-color: #4aaaa5;
+	left: 328px;
+	top: 395px;
+	margin: 0;
+	padding: 5px 62px 5px 61px;
+	color: #fff;
+	font-size: 19px;
+}
+@media (max-width: 640px) {
+	.audioBanner {
+	position: absolute;
+	background-color: #4aaaa5;
+	left: 328px;
+	top: 190px;
+	margin: 0;
+	padding: 5px 86px 5px 86px;
+	color: #fff;
+	font-size: 19px;
+}
+@media (max-width: 640px) {
+	.logoBanner {
+	position: absolute;
+	background-color: #4aaaa5;
+	left: 34px;
+	top: 190px;
+	margin: 0;
+	padding: 5px 90px 5px 70px;
+	color: #fff;
+	font-size: 19px;
+
+}
+@media (max-width: 640px) {
+	.mediaBanner {
+	position: absolute;
+	background-color: #4aaaa5;
+	left: 34px;
+	top: 395px;
+	margin: 0;
+	padding: 5px 85px 5px 64px;
+	color: #fff;
+	font-size: 19px;
+}
+
+@media (max-width: 640px) {
+.divStyle1 {
+	clear: both;
+	width: 640px;
+	background-color: #ffffff;
+/*	border: solid #cccccc 1px;*/
+	left: 0px;
+	position: static;
+	color: #777777;
+	margin-bottom: 0px;
+	padding: 0;
+}
+@media (max-width: 640px) {
+	nav {
+	position: static;
+	margin: 0px 0px;
+	padding: 0;
+}
+
+
+
+@media (max-width: 640px) {
+	nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	top: 0px;
+	margin-left: 0px;
+
+}
+@media (max-width: 640px) {
+	nav li {
+	display: inline;
+	float: left;
+/* 	border-right: 1px solid #bbb; */
+	line-height: 5px;
+	font-family: Times;
+	background-color: #fff;
+	padding: 10px 72px 10px 72px;
+}
+@media (max-width: 640px) {
+.picBox {
+	width: 640px;
+	padding: 0px 0px;
+	position: static;
+	top: 75px;
+	left: 710px;
+	background-color: #fff;
+/*	border: solid #cccccc 1px;*/
+}
+@media (max-width: 640px) {
+	.picBox img {
+	width: 80px;
+	margin-right: 120px;
+	left: 70px;
+	position: relative;
+	height: 80px;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 640px) {
+	footer {
+	width: 640px;
+	background-color: #666666;
+	height: 70px;
+	margin: 0 0;
+	padding: 0 0;
+	text-align: center;
+	border-top: solid #4aaaa5 5px;
+	clear: both;
+  }
+
+@media (max-width: 640px) {
+	.nameStyle {
+	color: #ffffff;
+	padding: 10px 15px;
+	background-color: #4aaaa5;
+	width: 640px;
+	left: 0px;
+	font-family: Georgia;
+	margin: 0px 0px;
+	position: relative;
+	font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
